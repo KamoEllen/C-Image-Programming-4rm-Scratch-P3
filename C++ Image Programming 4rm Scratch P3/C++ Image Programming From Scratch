@@ -1,0 +1,83 @@
+//description , image processing , P3 , C++ 
+
+/*
+#include<iostream>
+#include<fstream>//input output files
+#include<ctime>
+#include<cstdlib>
+using namespace std;
+int main()
+{
+offstream image;
+image.open("  imagefirst.ppm")
+srand(time[0]); //srand = set to random
+if{(image_is_open)}{
+//break downimage details
+image<<"P3"<<endl; //P1 , P2 , P3 search "
+image<<"250 250"<<endl; //max height & length 
+image<<"255"<<endl; //max color 
+ for(int y = 0; y < 250; y++) {
+ for(int x = 0; x < 250; x++) //x & y axis
+ image << rand() % 250 << " " << x << " " << x <<endl;
+}
+
+//new file
+//add filter (+ blue)
+  #include<iostream>
+#include<fstream>//input output files
+#include<ctime>
+#include<cstdlib>
+#include<stream>
+
+using namespace std;
+int main()
+{
+ifstream image;
+offstream newimage;
+//download image , save as imagefirst
+image.open("imagefirst.ppm");
+newimage.open(" newimage.ppm");
+
+//copy header info onto ne image
+string type = " ", width = " ", RGB = " ";//RGB =red green blue
+image >> type;
+image >> width;
+image >> height;
+image >> RGB;
+
+newimage << type   << endl;
+newimage << width << " " << height << endl;
+newimage <<  RGB  << endl;
+cout << type << idth << height << RGN ,, endl;
+
+string red = " " ,  green = " " , blue = " ";
+int r = o, g = 0, b= 0;
+
+while(!image.eof()){//eof = end of file, function
+image >> red;
+image >> green;
+image >> blue;
+
+stringstream redstream(red);
+stringstream greenstream(green);
+stringstream bluestream(blue);;
+
+redstream >> r;
+greenstream >> g;
+bluestream >> b;
+
+if(b + 50 >= 255) {
+b = 255;
+} else {
+b += 50;
+}
+
+newimage <<  r << " " << g << " " << b << endl;
+}
+ image.close();
+ newimage.close();
+ 
+
+
+return 0;
+*/
